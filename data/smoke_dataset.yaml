@@ -1,0 +1,8 @@
+path: /Users/jiayul/Desktop/smoke-detection-data
+# 训练集和验证集的相对路径 
+train: images/train
+val: images/val
+
+# 关键修改：告诉YOLOv5您的数据集信息
+nc: 1             # 类别数量 (Number of Classes)
+names: ['smoke']  # 类别名称
